@@ -1,0 +1,103 @@
+/* Styles d'en-tête */
+header{
+    text-align: center;
+    border-bottom: 1px solid darkgray;
+    margin-bottom: 25px;
+}
+/* Styles principaux */
+section{
+    width: 80%; /* Pour ne pas que ça colle aux bords */
+    margin: auto;
+}
+/* Styles de classes */
+.barre{
+    text-decoration: line-through;
+}
+article{
+    text-align: justify;
+}
+article h6{
+    font-weight: bold;
+    font-size: x-large;
+}
+.auteur{
+    display: inline-block;
+    font-style: italic;
+}
+.date{
+    display: inline-block;
+    float: right;
+    font-size: small;
+}
+/* COMMENTAIRES */
+aside{
+    border-top: 1px solid black;
+    padding-top: 12px;
+    margin: 25px auto;
+}
+.comment_form{
+    max-width: 75vh;
+}
+.comment_form label{
+    width: 45%;
+}
+.comment_form input{
+    margin: 10px 0px;
+}
+.error{
+    width: 80%;
+    margin: auto;
+    padding: 2px 6px;
+    background-color: #FF6F6F;
+    border: 1px solid red;
+    border-radius: 7px;
+}
+.info{
+    width: 80%;
+    margin: auto;
+    padding: 2px 6px;
+    background-color: #63D063;
+    border: 1px solid darkgreen;
+    border-radius: 7px;
+}
+.commentaire{
+    border: 1px solid darkgray;
+    border-radius: 15px;
+    padding: 5px;
+    width: 75%;
+    margin: 5px auto;
+    background-color: lightgray;
+}
+.commentaire .auteur{
+    font-variant: italic;
+}
+.commentaire .date{
+    font-weight: bold;
+}
+
+/* Connexion */
+.connexion{
+    float: right;
+}
+#connectBox{
+    display: none;
+    background: white;
+    border: 1px solid darkgray;
+    border-radius: 18px;
+    width: 225px;
+    right: 0px;
+    position: absolute;
+}
+#connectBox input{
+    margin: 5px 0px;
+}
+#admin-table{
+    margin: auto;
+    width: 80vw;
+    border: 1px solid black;
+}
+#admin-table tr td,th{
+    border: 1px solid black;
+    text-align : center;
+    padding: 3px 0px;
+}
